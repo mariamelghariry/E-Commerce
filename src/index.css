@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.product:hover{
+  border: solid #368754;
+}
+.product .btn{
+  opacity: 0 !important;
+  transition: transform 1s, opacity 1s !important;
+  transform: translateY(100%) !important;
+}
+.product:hover .btn{
+  opacity: 1 !important;
+  transform: translateY(0%) !important;
+}
+
+.rating-color{
+  color: #E8B200;
+}
+.categories{
+  height: 400px;
+  transition: 500ms;
+  box-shadow: 0px 0px 14px 3px #00000022;
+}
+.categories:hover{
+  transform: scale(1.01,1.01);
+ box-shadow: 0px 0px 14px 3px #19875475;
+}
+.white-bar{
+  height: 100px;
+}
+.brands{
+  transition: 500ms;
+  box-shadow: 0px 0px 14px 3px #00000022;
+}
+.brands:hover{
+  transform: scale(1.01,1.01);
+  box-shadow: 0px 0px 14px 3px #19875475;
+}
+.z-index{
+  z-index: 10;
+}
+.nav-m{
+  padding-top:65px ;
+}
+.decoration{
+  text-decoration: none;
+}
+.decoration:hover{
+  text-decoration: underline;
+}
